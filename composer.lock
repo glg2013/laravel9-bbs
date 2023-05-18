@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dd112af7d1caa77adba1954f4d228e16",
+    "content-hash": "782d8c062e656fc2fbba7c8936a76e4a",
     "packages": [
         {
             "name": "archtechx/enums",
@@ -1000,7 +1000,7 @@
             "version": "2.7.2",
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.cloud.tencent.com/repository/composer/intervention/image/2.7.2/intervention-image-2.7.2.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/intervention/image/2.7.2/intervention-image-2.7.2.zip",
                 "reference": "04be355f8d6734c826045d02a1079ad658322dad",
                 "shasum": ""
             },
