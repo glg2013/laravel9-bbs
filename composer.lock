@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "782d8c062e656fc2fbba7c8936a76e4a",
+    "content-hash": "1b0ae18c8356f0e03dcfec20702e166e",
     "packages": [
         {
             "name": "archtechx/enums",
@@ -6765,6 +6765,57 @@
                 "page"
             ],
             "time": "2023-01-03T19:28:04+00:00"
+        },
+        {
+            "name": "summerblue/generator",
+            "version": "9.0.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://mirrors.cloud.tencent.com/repository/composer/summerblue/generator/9.0.2/summerblue-generator-9.0.2.zip",
+                "reference": "bfa995c2acb8fa22e7f1712cea1ea05e40d82a46",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.0"
+            },
+            "require-dev": {
+                "laravel/laravel": "9.*",
+                "phpunit/phpunit": "^9.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Summerblue\\Generator\\GeneratorsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Summerblue\\Generator\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fernando Brito",
+                    "email": "fernandobritofl@gmail.com"
+                },
+                {
+                    "name": "Summer",
+                    "email": "summer@learnku.com"
+                }
+            ],
+            "description": "Extend Laravel's generators scaffold.",
+            "keywords": [
+                "generators",
+                "laravel",
+                "laravel5",
+                "scaffold"
+            ],
+            "time": "2022-03-06T08:13:19+00:00"
         },
         {
             "name": "symfony/yaml",
