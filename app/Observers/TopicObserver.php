@@ -18,4 +18,9 @@ class TopicObserver
     {
         //
     }
+
+    public function saving(Topic $topic)
+    {
+        $topic->setAttribute('excerpt', make_excerpt($topic->getAttribute('body')));
+    }
 }
