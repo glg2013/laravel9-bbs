@@ -10,11 +10,13 @@
         "intervention/image": "^2.7",
         "laravel-lang/common": "^3.1",
         "laravel/framework": "^9.19",
+        "laravel/horizon": "^5.15",
         "laravel/sanctum": "^3.0",
         "laravel/tinker": "^2.7",
         "mews/captcha": "~3.0",
         "mews/purifier": "~3.3",
         "overtrue/pinyin": "~4.0",
+        "predis/predis": "^2.1",
         "summerblue/laravel-active": "9.*"
     },
     "require-dev": {
