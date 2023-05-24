@@ -21,6 +21,7 @@ class TopicObserver
 
     public function saving(Topic $topic)
     {
+        $topic->setAttribute('body', clean($topic->getAttribute('body'), 'user_topic_body'));
         $topic->setAttribute('excerpt', make_excerpt($topic->getAttribute('body')));
     }
 }
